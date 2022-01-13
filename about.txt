@@ -1,0 +1,18 @@
+This is the web-scrapping and automation project where we are going to fetch data from the site 
+we will fetch the data of the match we will fetch bowlers and batsmans scores.. let do it...
+this is the batsmans scores and this is bowlers score.. 
+we are using selenium web driver for automation and using chrome driver to control chrome browser..
+let run the code...
+here  this is the two array first one is for batsman scores 
+and second one for bowlers stats
+let do players all time stats...
+we are going to fetch every players data bowling and batting carrer and save that data into SinglePage.json 
+as we stored our match data into carrer.json..
+let fetch players all time stats in every matchs... like in t20 ,odi and etc..
+we will do this work in single page in sync and after we will do that function in aysc function or run parallely to reduce the time or for save the time
+we done in single chrome browser
+let fetch data in aysc or parallely...
+we are fetching data parallely so for every player a new browser is opened for fetching...
+its may take more time it is totally based on your internet and on your computer
+here we will fetch data for 3 batsman and 3 bowlers because new browser will open for 
+every player so system can be hang.. so we will do for
