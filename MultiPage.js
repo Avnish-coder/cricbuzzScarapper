@@ -78,9 +78,9 @@ async function forBatsman() {
               //  this is for batsman
               for (let i = 0; i < inning1BatsmanRow.length; i++) {
                             let columns = await inning1BatsmanRow[i].findElements(swd.By.css(".cb-col.cb-col"));
-                              if(i==3){
-                                 break;
-                              }
+                              // if(i==3){
+                              //    break;
+                              // }
                             if (columns.length == 7) {
                                           let url = await columns[0].findElement(swd.By.css("a")).getAttribute("href");
                                           let playerName = await columns[0].getAttribute("innerText");
@@ -98,9 +98,9 @@ async function forBatsman() {
               let inning1BowlersRow = await tables[1].findElements(swd.By.css(".cb-col.cb-col-100.cb-scrd-itms"));
               for (let i = 0; i < inning1BowlersRow.length; i++) {
                             let columns = await inning1BowlersRow[i].findElements(swd.By.css(".cb-col.cb-col"));
-                                 if(i == 3){
-                                    break;
-                                 }
+                                 // if(i == 3){
+                                 //    break;
+                                 // }
                             if (columns.length == 8) {
                                           let url = await columns[0].findElement(swd.By.css("a")).getAttribute("href");
                                           let playerName = await columns[0].getAttribute("innerText");
